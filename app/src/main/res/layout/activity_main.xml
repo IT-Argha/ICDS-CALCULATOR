@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="34dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/Aquamarine"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text="@string/class_1"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/PaleGreen"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/class_2"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/style_btn"
+        android:textStyle="bold"
+        android:text="@string/reg2_1"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+
+</LinearLayout>
